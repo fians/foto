@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    font-size:14px;
+}
+
+.part {
+    width:100%;
+    overflow:hidden;
+}
+
+.part img {
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.content {
+    position:fixed;
+    width:100%;
+    height:100%;
+}
+
+.text {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -220px;
+    margin-left:-240px;
+    width:100%;
+    height:440px;
+    width:480px;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.6);
+    padding:10px;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+.content h1 {
+    font-size:140px;
+    margin:0;
+}
+
+.content h1.small {
+    font-size:100px;
+    line-height: 115%;
+}
+
+.content p {
+    font-size:20px;
+    width:400px;
+    margin:10px auto;
+    font-weight:bold;
+}
+
+@media all and (max-width:480px) {
+    .text,
+    .content p {
+        width:100%;
+    }
+}
