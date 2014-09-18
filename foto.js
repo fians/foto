@@ -3,7 +3,7 @@
  * Foto - v0.1.0 
  * https://github.com/fians/foto 
  * 
- * Copyright 2014 Alfiana E. Sibuea and other contributors 
+ * Copyright 2014 Alfiana Sibuea and other contributors 
  * Released under the MIT license 
  * https://github.com/fians/foto/blob/master/LICENSE 
  */ 
@@ -72,6 +72,9 @@
         return container;
     }
 
+    /**
+     * Get attributes key and value from object attributes
+     */
     function getAllAttributes(attrs) {
 
         var container = {};
@@ -120,28 +123,34 @@
     }
 
     /**
+     * Set image to element
+     */
+    function setImage(el, src) {
+
+        var image = new Image();
+
+        image.onload = function() {
+            el.setAttribute('src', src);
+        };
+
+        image.src = src;
+    }
+
+    /**
      * Initialize or set images based on ft-*-src
      */
     function init() {
 
-        var container = {};
         var imgs = document.getElementsByTagName('img');
 
         for (var a = 0; a < imgs.length; a++) {
 
             // Pick source
             var rawAttr     = getAllAttributes(imgs[a].attributes);
-            var container   = extract(rawAttr);
-            var selectedSrc = pick(container);
+            var selectedSrc = pick(extract(rawAttr));
 
             // Set to img element
-            (function(el, src) {
-                var image = new Image();
-                image.onload = function() {
-                    el.setAttribute('src', src);
-                };
-                image.src = src;
-            })(imgs[a], selectedSrc);
+            setImage(imgs[a], selectedSrc);
         }
 
     }
