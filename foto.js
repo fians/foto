@@ -145,6 +145,9 @@
 
         for (var a = 0; a < imgs.length; a++) {
 
+            // Put transparent pixel on img tag
+            imgs[a].setAttribute('src', 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');
+
             // Pick source
             var rawAttr     = getAllAttributes(imgs[a].attributes);
             var selectedSrc = pick(extract(rawAttr));
