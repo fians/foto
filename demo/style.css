@@ -43,9 +43,14 @@ body {
     margin:0;
 }
 
-.content h1.small {
+.content h1.full {
     font-size:100px;
     line-height: 115%;
+}
+
+.content h1.background {
+    font-size: 70px;
+    line-height: 125%;
 }
 
 .content p {
@@ -56,6 +61,12 @@ body {
 }
 
 @media all and (max-width:480px) {
+
+    .text {
+        left:0%;
+        margin-left: 0;
+    }
+
     .text,
     .content p {
         width:100%;
