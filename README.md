@@ -63,3 +63,13 @@ Another example:
 ```
 
 By default, if there is no `src` tag on `<img>`, Foto will show white 1x1 pixels gif using base64 data-URI while load the specified image. It also detect `onresize` event, so when user resize their browser or rotate their phone/tablet, it will load image that has been specified by `ft-*-src`.
+
+## Browser Support
+
+Foto has been tested on latest version of Chrome and Firefox. It works! 
+
+More browser support is coming.
+
+## License
+
+Marka is released under the [MIT license](https://github.com/fians/foto/blob/master/LICENSE). 2014 (c) Alfiana Sibuea. All right reserved.
