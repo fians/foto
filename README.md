@@ -4,7 +4,7 @@ Foto is a javascript library that help you to load images on your responsive web
 
 ## Why?
 
-Well, image size has been a generral issue when you tried to build a resposive website, because you shouldn't load same image resources when user visit your site from smartphone, as you did when they visit from desktop.
+Well, image size has been a generral issue when you tried to build a resposive website, because you shouldn't make user load image resources when they visit from their phone as same as when they did from desktop.
 
 You might said _"Just make the images being cached, dude!"_. 
 
@@ -12,7 +12,7 @@ So what happen if there is a guy who searching a product on Google through his p
 
 A common quickfix for this problem is using combination of CSS `background-image` and `media query`. But when it comes to dynamic images, it will make your HTML looks so dirty, and may be other people will have problem when they trying to fix other bugs on it.
 
-That's why I created Foto to solve this problem.
+That's why I created Foto.
 
 ## How to use
 
