@@ -80,10 +80,8 @@
         var container = {};
 
         for (var a in attrs) {
-            if (attrs.hasOwnProperty(a)) {
-                if (typeof attrs[a] === 'object') {
-                    container[attrs[a].name] = attrs[a].value;
-                }
+            if (typeof attrs[a] === 'object') {
+                container[attrs[a].name] = attrs[a].value;
             }
         }
 
