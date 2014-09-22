@@ -74,9 +74,13 @@ Need comparison? Here we go:
 
 ## Browser Support
 
-Foto has been tested on latest version of Chrome and Firefox. It works! 
+- IE 6+
+- Chrome 26+
+- Firefox 2+
+- Opera 9+
+- Safari 5+
 
-More browser support is coming.
+Note: Thanks for [SauceLabs](https://saucelabs.com/) for providing testing platform!
 
 ## License
 
