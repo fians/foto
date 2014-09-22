@@ -1,6 +1,6 @@
 # Foto
 
-Foto is a javascript library that help you to load images on your responsive website based on user device's sreen width. So, it will help you to make your site faster than ever!
+Foto is a javascript library that help you to load images on your responsive website based on screen width of user device. So, it will help you to make your site faster than ever!
 
 ## How to use
 
