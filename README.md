@@ -1,18 +1,6 @@
 # Foto
 
-Foto is a javascript library that help you to load images on your responsive website based on user device's sreen width. It means it will help you to make your site faster than ever!
-
-## Why?
-
-Well, image size has been a generral issue when you tried to build a resposive website, because you shouldn't make user load image resources when they visit from their phone as same as when they did from desktop.
-
-You might said _"Just make the images being cached, dude!"_. 
-
-So what happen if there is a guy who searching a product on Google through his phone and when they click your website they're quickly frustated and leave because your site has big welcome image which have size about 2MB.
-
-A common quickfix for this problem is using combination of CSS `background-image` and `media query`. But when it comes to dynamic images, it will make your HTML looks so dirty, and may be other people will have problem when they trying to fix other bugs on it.
-
-That's why I created Foto.
+Foto is a javascript library that help you to load images on your responsive website based on screen width of user device. So, it will help you to make your site faster than ever!
 
 ## How to use
 
@@ -74,9 +62,13 @@ Need comparison? Here we go:
 
 ## Browser Support
 
-Foto has been tested on latest version of Chrome and Firefox. It works! 
+- IE 6+
+- Chrome 26+
+- Firefox 2+
+- Opera 9+
+- Safari 5+
 
-More browser support is coming.
+Note: Thanks for [SauceLabs](https://saucelabs.com/) for providing testing platform!
 
 ## License
 
