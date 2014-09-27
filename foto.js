@@ -58,14 +58,10 @@
         var container = {};
 
         for (var a in raw) {
-            if (raw.hasOwnProperty(a)) {
+            var capture = a.match(/ft\-([\d]+)\-src/);
 
-                var capture = a.match(/ft\-([\d]+)\-src/);
-
-                if (capture) {
-                    container[capture[1]] = raw[a];
-                }
-
+            if (capture) {
+                container[capture[1]] = raw[a];
             }
         }
 
