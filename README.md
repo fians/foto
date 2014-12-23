@@ -72,4 +72,4 @@ Note: Thanks for [SauceLabs](https://saucelabs.com/) for providing testing platf
 
 ## License
 
-Marka is released under the [MIT license](https://github.com/fians/foto/blob/master/LICENSE). 2014 (c) Alfiana Sibuea. All right reserved.
+Foto is released under the [MIT license](https://github.com/fians/foto/blob/master/LICENSE). 2014 (c) Alfiana Sibuea. All right reserved.
